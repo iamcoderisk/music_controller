@@ -7,9 +7,9 @@ export default class App extends Component {
     }
     render() {
         return (<div>
-        <h1>Hello from the react app</h1>
+            <h1> {this.props.name} </h1>
         </div>);
     }
 }
 const appDiv = document.getElementById("app")
-render(<App />, appDiv)
+render(<App name="Prince Darlington:"/>, appDiv)
