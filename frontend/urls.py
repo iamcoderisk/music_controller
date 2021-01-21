@@ -3,6 +3,6 @@ from . views import index
 urlpatterns = [
    
     path('',index),
-    path('join',index),
-    path('create',index)#pages would be linked to route later
+    path('join', index),
+    path('create', index)
 ]

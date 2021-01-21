@@ -20,12 +20,12 @@ export default class HomePage extends Component {
                 <Route exact path="/">
                         <h1>Default Page</h1>
                 </Route>
-                <Route path="/join" Component={RoomJoinPage} />
-                <Route path="/create" Component={CreateRoomPage} />
+                <Route path="/join"  component={RoomJoinPage} />
+                       
+                
+                <Route path="/create" component={CreateRoomPage} />
                 </Switch>
         </Router>
         );
     }
 }
-const appDiv = document.getElementById("app")
-render(<App name="Prince Darlington"/>, appDiv)

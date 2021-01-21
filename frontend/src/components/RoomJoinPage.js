@@ -5,10 +5,6 @@ export default class RoomJoinPage extends Component {
         super(props);
     }
     render() {
-        return (
-            <div>
-                <p>This is the room join page</p>
-            </div>
-        );
+        return  <h4>JOIN VOTES </h4>
     }
 }
