@@ -18,8 +18,8 @@ export default class HomePage extends Component {
     render() {
         return (<Router>
             <Switch>
-                <Route path="/">
-                    
+                <Route exact path="/">
+                        <h1>Default Page</h1>
                 </Route>
                 <Route path="/join" Component={RoomJoinPage} />
                 <Route path="/create" Component={CreateRoomPage} />
