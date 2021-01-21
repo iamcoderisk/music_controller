@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import HomePage from "./HomePage";
-import RoomJoinPage from "./RoomJoinPage"
-import CreateRoomPage from "./CreateRoomPage"
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -16,15 +15,7 @@ export default class App extends Component {
         super(props)
     }
     render() {
-        return (<Router>
-            <Switch>
-                <Route path="/">
-                    <p>This is the home page o</p>
-                </Route>
-                <Route path="/join" Component={RoomJoinPage} />
-                <Route path="/create" Component={CreateRoomPage} />
-                </Switch>
-        </Router>
+        return (<HomePage />
         );
     }
 }
